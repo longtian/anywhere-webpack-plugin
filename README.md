@@ -5,7 +5,7 @@
 
 > A webpack plugin which detects publicPath automatically ( using document.currentScript API ),
 > so that you can switch your CDN provider without building again.
-> In other words, you can put webpack ouput files anywhere :plane: you like.
+> In other words, you can put webpack ouput files anywhere :airplane: you like.
 
 ## Usage
 
