@@ -12,7 +12,7 @@
 require it in your entry file as early as possible
 
 ```js
-require('publicpath-webpack-plugin');
+require('anywhere-webpack-plugin');
 ```
 
 or, prepend it to your entry file definition
@@ -20,7 +20,7 @@ or, prepend it to your entry file definition
 ```js
 {
   entry:[
-    'publicpath-webpack-plugin',
+    'anywhere-webpack-plugin',
     'entry.js'
   ]
 }
