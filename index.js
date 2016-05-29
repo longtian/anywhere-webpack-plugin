@@ -1,10 +1,11 @@
 var url = require('url');
+var scripts = document.getElementsByTagName('script');
 
-// get current script url
-var runningScriptUrl = document.currentScript.src;
+// get current script
+var currentScript = document.currentScript || scripts[scripts.length - 1];
 
 // parse it so we can get parent url
-var scriptUrl = url.parse(runningScriptUrl);
+var scriptUrl = url.parse(currentScript.src);
 var staticPath = url.format({
   protocol: scriptUrl.protocol,
   host: scriptUrl.host,
