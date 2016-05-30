@@ -1,6 +1,6 @@
 {
   "name": "anywhere-webpack-plugin",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Detect and configure publicPath in run time",
   "main": "index.js",
   "scripts": {
